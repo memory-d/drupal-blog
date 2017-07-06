@@ -2,48 +2,47 @@
 /**
  * Implements hook_entity_info_alter().
  */
-
 function displayblock_entity_info_alter(&$entity_info) {
- $entity_info['node']['view modes']['block'] = array(
-    'label' => t('block'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_zero'] = array(
-    'label' => t('Block Zero'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_rss'] = array(
-    'label' => t('Block RSS'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_step'] = array(
-    'label' => t('Block Step'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_one'] = array(
-    'label' => t('Block One'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_micro'] = array(
-    'label' => t('Block Micro'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_small'] = array(
-    'label' => t('Block Small'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_sp'] = array(
-    'label' => t('Block SP'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_xp'] = array(
-    'label' => t('Block XP'),
-    'custom settings' => TRUE,
-  );
-  $entity_info['node']['view modes']['block_term'] = array(
-    'label' => t('Block Term'),
-    'custom settings' => TRUE,
-  );
+$entity_info['node']['view modes']['block'] = array(
+'label' => t('block'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_zero'] = array(
+'label' => t('Block Zero'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_rss'] = array(
+'label' => t('Block RSS'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_step'] = array(
+'label' => t('Block Step'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_one'] = array(
+'label' => t('Block One'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_micro'] = array(
+'label' => t('Block Micro'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_small'] = array(
+'label' => t('Block Small'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_sp'] = array(
+'label' => t('Block SP'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_xp'] = array(
+'label' => t('Block XP'),
+'custom settings' => TRUE,
+);
+$entity_info['node']['view modes']['block_term'] = array(
+'label' => t('Block Term'),
+'custom settings' => TRUE,
+);
 }
 
 /**
