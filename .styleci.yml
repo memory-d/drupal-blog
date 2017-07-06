@@ -1,0 +1,43 @@
+preset: recommended
+
+risky: false
+
+enabled:
+  - long_array_syntax
+  - strict
+  - unalign_double_arrow
+
+disabled:
+  - align_double_arrow
+  - short_array_syntax
+
+finder:
+  exclude:
+    - "sites/all/modules/contrib"
+    - "includes"
+    - "misc"
+    _ "modules"
+    - "profiles"
+    - "scripts"
+    - "themes"
+
+   path:
+    - "sites/all/modules/custom"
+  # name:
+  #   - "*.php"
+  not-name:
+    - "index.php"
+    - "cron.php"
+    - "authorize.php"
+    - "install.php"
+    - "update.php"
+  # contains:
+  #   - "Foo"
+  # not-contains:
+  #   - "config"
+  # path:
+  #   - "foo/Stuff"
+  # not-path:
+  #   - "libraries"
+  # depth:
+  #   - "< 3"
