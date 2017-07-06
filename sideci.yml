@@ -1,4 +1,4 @@
 linter:
   code_sniffer:
     options:
-      standard: phpcs.xml.dist
+      standard: phpcs.xml
