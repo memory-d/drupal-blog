@@ -20,11 +20,10 @@ finder:
     - "profiles"
     - "scripts"
     - "themes"
-
-   path:
+    
+  path:
     - "sites/all/modules/custom"
-  # name:
-  #   - "*.php"
+
   not-name:
     - "index.php"
     - "cron.php"
