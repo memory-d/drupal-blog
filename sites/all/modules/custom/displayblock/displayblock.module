@@ -1,13 +1,11 @@
 <?php
+
+
 /**
  * Implements hook_entity_info_alter().
  */
-
-
-
-
-
 function displayblock_entity_info_alter(&$entity_info) {
+
  $entity_info['node']['view modes']['block'] = array(
     'label' => t('block'),
     'custom settings' => TRUE,
@@ -55,8 +53,8 @@ function displayblock_entity_info_alter(&$entity_info) {
  */
 function displayblock_preprocess_node(&$vars) {
 if ($vars['view_mode'] == 'block') {
-    $vars['theme_hook_suggestions'][] = 'node__' . $vars['type'] . '__block';
-  }
+$vars['theme_hook_suggestions'][] = 'node__' . $vars['type'] . '__block';
+}
   if ($vars['view_mode'] == 'block_zero') {
     $vars['theme_hook_suggestions'][] = 'node__' . $vars['type'] . '__block_zero';
   }
